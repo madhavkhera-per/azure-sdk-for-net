@@ -139,6 +139,10 @@
         }
     ],
     "outputs": {
+        "AZURE_AUTHORITY_HOST": {
+            "type": "string",
+            "value": "[parameters('azureAuthorityHost')]"
+        },
         "AZURE_KEYVAULT_URL": {
             "type": "string",
             "value": "[variables('azureKeyVaultUrl')]"
